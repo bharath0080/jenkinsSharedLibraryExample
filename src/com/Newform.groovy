@@ -11,7 +11,7 @@ class Newform{
 		this.jenkins=jenkins
 	}
 	
-	def methodName(Map<String, Object>, params){
+	def methodName(Map<String, Object> params){
 		def defaults = [
 		testing : "defaultValue"
 		]
